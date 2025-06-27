@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string txt;
+    cout << "Enter a string: ";//prompt user for input
+    getline(cin, txt); // Read a line of text including spaces
+    cout << "The length of the string is: " << txt.size() << endl; // Output the length of the string
+    return 0;
+}
